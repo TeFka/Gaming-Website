@@ -1,0 +1,226 @@
+body{
+
+background:#111111;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow:hidden;
+}
+
+/*header*/
+#daHeader{
+	 padding: 5px 0 5px 0;
+	 border-bottom: #770000 3px solid;
+	 background:linear-gradient(to left, #999999 0%, #888888 30%, #777777 60%,#444444 80%,#222222 90%);
+	 height:10%;
+	 width:100%;
+	 background-size: cover;
+	 float:left;
+	}
+	#daHeader h1{
+		color:#770000;
+		font-family: Magneto, Arial, sans-serif;
+		float: left;
+		font-size: 40px;
+		padding:0 0 0 15px;
+		margin:0;
+	}
+	.link{
+		text-decoration:none;
+		color: #770000;
+		text-transform: Uppercase;
+		font-size: 20px;
+	}
+	.Alink{
+		text-decoration:none;
+		color: #770000;
+		text-transform: Uppercase;
+		font-size: 20px;
+	}
+	#daHeader select{
+		display:inline;
+		margin: 10px;
+		float: right;
+	}
+	#daHeader ul{
+		padding: 0 90px 0 0;
+		margin:0;
+	}
+	#daHeader li{
+		display: inline;
+		float: left;
+		margin:15px 15px 15px 15px;
+		padding:0 0 0 0;
+	}
+	#daHeader nav{
+		float: right;
+	}
+	
+	.buttn{
+		width: 100px;
+		height: 20px;
+		border: #770000 2px solid;
+		background: #000000;
+		color: #FF0000;
+		float: right;
+	}
+	
+	#go{
+		color:#BB0000;
+		text-decoration:none;
+	}
+	
+	.link:hover,.Alink:hover,#go:hover{
+		color: #FFFFFF;
+	}
+	.link:active,.Alink:active{
+		font-weight: bold;
+	}
+	.buttn:hover{
+		border-color: #FFFFFF;
+		color:#FFFFFF;
+	}
+
+/*form*/
+.close{
+	background:rgba(250,0,0,0.6);
+	border:rgba(250,0,0,0.6) 1px solid;
+	margin-top:0;
+	float:right;
+	height:10px;
+	width:20px;
+}
+.form{
+		width:100%;
+		height:100%;
+		text-align:center;
+		}
+		.form input{
+			margin:15px;
+		}
+		.form button{
+			height:10p;
+			width:20x;
+		}
+
+#register{
+	position:absolute;
+	display:none;
+	width:400px;
+	height:300px;
+	margin-left:400px;
+	margin-bottom:200px;		
+}
+
+#login{
+	position:absolute;
+	display:none;
+	width:400px;
+	height:500px;
+	margin-left:400px;
+	margin-bottom:200px;
+}
+
+#profile{
+	float:left;
+	color:white;
+	width:100%;
+	height:500px;
+	background: #999999;
+}
+
+/*main*/
+#main{
+	height: 800px;
+}
+#mainL{
+	color:#770000;
+	background:linear-gradient(#999999 0%, #888888 20%, #777777 40%,#444444 70%,#222222 90%);
+	font-family: Magneto, Arial, sans-serif;
+	font-size:25px;
+	text-align:center;
+	float:left;
+	width:20%;
+	height: 100%;;
+}
+
+#mainL img{
+	width:100%;
+	height: 16%;
+}
+#mainM{
+	color:#BB0000;
+	border: #770000 3px solid;
+	font-family: Magneto, Arial, sans-serif;
+	font-size:25px;
+	vertical-align:middle;
+	text-align:center;
+	float:left;
+	width:59%;
+	height: 100%;
+}
+.playGame{
+	display:inline;
+	float:left;
+	margin:20px;
+	text-align:center;
+}
+.playGame img{
+	float:left;
+	margin:0;
+	width:150px;
+	height:150px;
+}
+
+#mainR{
+	color:#770000;
+	background:linear-gradient(#999999 0%, #888888 20%, #777777 40%,#444444 70%,#222222 90%);
+	font-family: Magneto, Arial, sans-serif;
+	text-align:center;
+	float:left;
+	width:20%;
+	height: 100%;
+}
+
+#mainR a{
+	text-decoration:none;
+	font:20px Arial;
+	color:#770000;
+}
+#mainR a:hover{
+	font-size: 25px;
+	color:#FFFFFF;
+}
+
+.visitPerson img{
+	width:30px;
+	height:20px;
+}
+
+.front{
+	float: left;
+	text-align:center;
+	width:100%;
+	height:100%;
+	background:linear-gradient(#666666 0%, #444444 20%, #333333 40%,#222222 70%,#111111 90%);
+}
+
+/*foot*/
+#foot{
+	font-size:10px;
+	width:100%;
+	color:white;
+	background-color:black;
+}
+#foot p{
+	margin:10px;
+	display:inline;
+}
+/*errors*/
+
+.errorMsg{
+	background:rgba(255,0,0,0.6);
+	color:#770000;
+}

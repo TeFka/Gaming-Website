@@ -1,0 +1,132 @@
+body {
+    background:grey;
+}
+.gameArea{
+	width:1000px;
+	height:600px;
+	float:left;
+	margin:50px 0 50px 15%;
+	position:relative;
+}
+#canv{
+	z-index:1;
+    width:1000px;
+	height: 600px;
+    display:none;
+	position:absolute;
+    background:linear-gradient(rgba(0,250,0,0.8),rgba(0,250,250,0.8),rgba(250,250,250,0.7));
+}
+
+.button{ 
+    width:55px;
+    height:40px;
+    border:green 3px solid;
+    background:rgba(250,0,0,0.6);
+    margin:5px 10px 5px 10px;
+    padding-bottom:15px;
+}
+
+#losr, #winr, #modr{
+	z-index:3;
+text-align:center;
+font-size:23px;
+    width:230px;
+    height:120px;
+    margin:30% 0 0 40%;
+    background:#FF0000;
+    color:#000000;
+    position:absolute;
+    border:#000000 5px solid;
+    padding-bottom:40px;
+    display:none;
+    
+}
+#losr button, #winr button{
+    font-size:17px;
+    color:#FF0000;
+    width:100px;
+    height:40px;
+    background:black;
+    border:#00FF00 3px solid;
+}
+#winr{
+    background:#00FF00;
+    color:#00FFFF;
+    border:blue 5px solid;
+}
+#winr button{
+    color:#00FFFF;
+    border:blue 3px solid;
+}
+#modr{
+    border:#6600FF 5px solid;
+    background:#00FFFF;
+    color:#BB00FF;
+    font-size:17px;
+}
+#modr h1{
+    height:20px;
+}
+#modr button{
+font-size:17px;
+    width:90px;
+    height:30px;
+    border:#0000FF 3px solid;
+    color:#0000FF;
+    background:#AA00FF;
+    margin:7px;
+}
+
+#menu{
+	position:absolute;
+	z-index:2;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background:#6600FF;
+    display:block;
+}
+#menu h1{
+    background:#00FFFF;
+    font-family:Arial, sant-serif;
+    color:#FF0000;
+    font-size:60px;
+    height:70px;
+    margin-bottom:0;
+    margin-top:10px;
+}
+#menu svg{
+	position:relative;
+    margin-top:0;
+    background:linear-gradient(rgba(0,250,0,0.8),rgba(0,250,250,0.8),rgba(250,250,250,0.7));
+    height:55%;
+    width:100%;
+}
+#menu button{
+    font-size:20px;
+    width:120px;
+    height:50px;
+    background:#00FF00;
+    border:#0000FF 4px solid;
+    color:#0000FF;
+    margin:10px;
+}
+.close{
+    position:absolute;
+    width:20px;
+    height:10px;
+    margin-top:0;
+    float:right;
+    background:#FF0000;
+    border:#000000 2px solid;
+}
+
+
+
+
+
+
+
+
+
+

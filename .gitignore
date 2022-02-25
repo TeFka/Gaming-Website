@@ -1,0 +1,23 @@
+# Contents of .gitignore
+*.com
+*.class
+
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.lib
+
+*.exp
+*.obj
+*.sln
+*.vcxproj
+*.filters
+
+*.cbp
+*.depend
+*.layout
+
+*[Bb]uild/
+

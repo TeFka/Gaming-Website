@@ -1,0 +1,193 @@
+body {
+   background:grey; 
+}
+#canv{
+    background:#99FF99;
+    width:1200px;
+    height:600px;
+    display:none;
+	margin: 5% 10% 5% 10%;
+}
+#manu{
+    width:1200px;
+    height:600px;
+	margin: 5% 10% 5% 10%;
+    text-align:center;
+    color:#00F000;
+    background: radial-gradient(#000,#00F,#000);
+}
+#manu button{
+    width:120px;
+    height:50px;
+    margin:10px;
+    color:#00F000;
+    border:#00F000 3px solid;
+    background:#000;
+}
+
+.but{
+    width:85px;
+    display:inline;  
+}
+#butns{
+    margin:150px 0 0 0;
+}
+
+#craftG, #inventory{
+    display:none;
+    position:absolute;
+    text-align:center;
+    margin:20% 40% 20% 40%;
+    background:#FFF;
+    border:#000000 3px double;
+    width:320px;
+    height:250px;
+} 
+
+#craftG li, #inventory li{
+    font-size:20px;
+    margin:4px;
+    border:#000000 1px solid;
+}
+#craftG li:active, #inventory li:active{
+    border:#000 3px solid;
+    color:#FFF;
+    background:#000;
+}
+
+#scrl1{
+    float:right;
+    display:inline;
+    padding:20px 0 20px 0;
+    border:#000 2px solid;
+    height:132px;
+    width:36px;  
+}
+#scrl2{
+    float:right;
+    display:inline;
+    padding:40px 0 40px 0;
+    border:#000 2px solid;
+    height:140px;
+    width:36px;
+}
+#scrlUp, #scrlDown{
+    background:rgba(0,0,0,0.2);
+    border:#000 1px solid;
+    margin:5px 0 5px 0;
+    width:36px;
+    height:56px;
+    float:right;
+}
+.descp{
+    text-align:center;
+    width:75px;
+    height:22px;
+    float:right;
+    font-size:9px;
+    border:#000 1px solid;
+}
+.descp h5{
+    display:inline;
+    margin:2px;
+}
+#craftG button{
+    width:70px;
+    height:20px;
+    float:left;
+    margin:0 0 0 0;
+    background:#FFFFFF;
+    border:#000000 3px double;
+}
+#craftG h1, #inventory h1{
+    font-size:25px;
+    margin:0;
+}
+#recipes{
+    height:176px;
+    width:320px;
+}
+#recipes ul, #thingsInv ul{
+    margin:0;
+    border:#000000 2px solid;
+    text-align:left;
+    width:236px;
+    float:left;
+}
+#recipes ul{
+    height:172px;
+}
+#thingsInv ul{
+    height:200px;
+}
+#pickCraf{
+    height:43px;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    float:left;
+    text-align:center;
+    font-size:15px;
+    border:#000000 2px solid;
+}
+#matCraf{
+    font-weight:bold;
+    height:43px;
+    text-align:center;
+    border:#000000 2px solid;
+    margin:0 0 0 0;
+    float:left;
+    
+}
+#crift{
+    width:90px;
+    height:38px;
+    float:right;
+    text-align:center;
+    margin:0 0 0 0;
+    font-size:35px;
+    border:#000000 5px solid;
+    background:#FFFFFF;
+}
+#crift:active{
+    border:#000 3px solid;
+    color:#FFF;
+    background:#000;
+};
+#inventory{
+    display:none;
+}
+#thingsInv ul{
+  height:190px;  
+  text-align:left;
+  border:#000000 2px solid;
+}
+
+#losx{
+position:absolute;
+    width:240px;
+    height:150px;
+    margin:20% 40% 20% 40%;
+    text-align:center;
+    color:#F00000;
+    border:#F00000 5px solid;
+    background:#000;
+    display:none;
+    
+}
+#losx button{
+    width:100px;
+    height:50px;
+    font-weight:bold;
+    margin:5px;
+    color:#F00000;
+    border:#F00000 3px solid;
+    background:#000;
+}
+
+#close{
+    margin:0;
+    float:right;
+    width:30px;
+    height:15px;
+    background:#000000;
+}
